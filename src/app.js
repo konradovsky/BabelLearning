@@ -1,4 +1,5 @@
-const test = () => console.log(123);
-test();
-var b = 333231241241;
-console.log(b);
+import numberReverse from "./number";
+
+const number = new numberReverse(1234567);
+
+console.log(number.reverseNumber());
